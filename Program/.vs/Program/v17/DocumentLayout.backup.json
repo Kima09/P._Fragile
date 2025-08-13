@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hkdav\\OneDrive\\Desktop\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|solutionrelative:Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.c",
-              "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\Program\\Program.c",
+              "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
               "RelativeDocumentMoniker": "Program.c",
-              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\Program\\Program.c",
+              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
               "RelativeToolTip": "Program.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T09:16:30.73Z",
               "EditorCaption": ""
