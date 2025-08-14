@@ -1,0 +1,5 @@
+strength: 
+dexterity: 
+wisdom: 
+intelligence: 
+constitution: 
