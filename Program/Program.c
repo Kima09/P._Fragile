@@ -2,51 +2,48 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define SIZE 100000
+#define SIZE 10
 
 int main()
 {
-#pragma region 파일 입출력
+#pragma region GetAsyncKeyState
+// Windows API에서 제공하는 입력 처리 함수로, 지정된 키의
+// 상태를 비동기적으로 확인할 때 사용되는 함수입니다.
 
-#pragma region File Write
+// Key State
+// 0x0000: 이전에 누른 적이 없고, 호출 시점에도 눌려있지 않은 상태
+// 0x0001: 이전에 누른 적이 있고, 호출 시점에는 눌려있지 않은 상태
+// 0x8000: 이전에 누른 적이 없고, 호출 시점에는 눌려있는 상태
+// 0x8001: 이전에 누른 적이 있고, 호출 시점에도 눌려있는 상태
 
-	// fopen(첫 번째 매개 변수): 파일의 이름
-	// fopen(두 번째 매개 변수): 입력 & 출력 모드
+	char* lines[SIZE];
+	lines[0] = "어서 오십시오. \n하지만 형사님께서 이곳에는 무슨 용무이신지?";
+	lines[1] = "...... \n어떻게 눈치챘는지 알려주겠소?";
+	lines[2] = "사무실에 들어오실 때, 문 너머의 사각지대부터 확인하셨지요. 군인이나 경찰, 그것도 실내전 훈련을 받은 이들의 버릇이죠.\n그리고 걸음거리에 섞인 쇳소리가 수갑이라면 답은 명쾌히 나오지 않습니까.";
+	lines[3] = "소문대로의 실력이구려.\n숨길 의도가 있었던 것은 아니었네만. 불쾌했다면 사과드리겠소.";
+	lines[4] = "불쾌라니, 당치도 않습니다. 하지만 사무소에 방문하신 이유를 들어볼 수 있을까요?";
+	lines[5] = "당신에게 맡기고 싶은 일이 있소. \n외부 인력의 개입은 허용될 수 없다는 게 원칙이지만... 예외는 있는 법이니.";
+	lines[6] = "사창가 연쇄살인 사건이군요.";
+	lines[7] = "사창가가 아니라 윤락가라는 점만 빼면 또 정답이오, 탐정.";
+	lines[8] = "피해자들은 모두 여성, 토막 살해 및 장기 적출. 언론에서 발표한 건 이 정도로 기억합니다만.";
+	lines[9] = "의뢰를 수락한다면 추가 자료, 사건 현장에 대한 무제한 접근 권한과... 막대한 보수를 약속한다고 하더군. 범인을 잡아낸다면 말이오.";
 
-	// 모드
-	// "r": 읽기 전용 (파일이 없을 때: NULL)
-	// "w": 쓰기 전용 (새로 파일을 생성)
-	// "a": 추가 모드 (새로 파일을 생성 - 기존에 있는 파일에 내용을 추가)
-
-	//FILE* file = fopen("data.txt", "w");
-	//
-	//fputs("strength: \n", file);
-	//fputs("dexterity: \n", file);
-	//fputs("wisdom: \n", file);
-	//fputs("intelligence: \n", file);
-	//fputs("constitution: ", file);
-	//
-	//fclose(file);
-
-#pragma endregion
-
-#pragma region File Read
-	FILE* file = fopen("wanzer.txt", "r");
-	char buffer[SIZE] = {0, };
-// 버퍼의 크기는 크게 잡는 것이 좋지만,
-// 과도하게 큰 값은 틀린 값을 출력시킬 수 있습니다.
-// 
-// 1. buffer: 읽을 데이터를 저장할 메모리
-// 2. element size: 각 데이터 항목의 크기
-// 3. element count: 데이터를 읽어올 데이터의 항목의 수
-// 4. stream: 데이터를 읽어올 파일 포인터
-
-	fread(buffer, 1, SIZE, file);
-	
-	printf("%s", buffer);
-	
-	fclose(file);
-#pragma endregion
+	for (int i = 0;i < SIZE;i++)
+	{
+		if (i % 2 == 0)
+		{
+			printf("\n탐정: ");
+		}
+		else if(i<=1)
+		{
+			printf("\n의뢰인: ");
+		}
+		else
+		{
+			printf("\n형사: ");
+		}
+		printf("%s\n", lines[i]);
+	}
 
 #pragma endregion
 
