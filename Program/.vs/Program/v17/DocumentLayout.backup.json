@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|solutionrelative:Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{56FE31AF-243F-4377-B2CF-341D7DFB939E}|..\\Class3rd (Input System)\\Class3rd (Input System).vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,14 +22,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "stdio.h",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt\\stdio.h",
-              "ViewState": "AgIAAHACAAAAAAAAAAAjwIUCAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-08-18T10:22:21.634Z",
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class3rd (Input System)\\Source.c",
+              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c",
+              "RelativeToolTip": "..\\Class3rd (Input System)\\Source.c",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvzYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-08-19T10:19:44.785Z",
               "EditorCaption": ""
             },
             {
@@ -38,9 +38,9 @@
               "Title": "Program.c",
               "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
               "RelativeDocumentMoniker": "Program.c",
-              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c*",
-              "RelativeToolTip": "Program.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
+              "RelativeToolTip": "Program.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T09:16:30.73Z",
               "EditorCaption": ""
