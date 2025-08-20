@@ -29,24 +29,71 @@ int main()
 	//move(x, y);
 	//printf("O");
 
+	//while (1)
+	//{
+	//	int input = _getch();
+	//	if (input == 224)
+	//	{
+	//		input = _getch();
+	//	}
+	//	switch (input)
+	//	{
+	//	case UP:
+	//		printf("UP\n");
+	//		break;
+	//	case DOWN:
+	//		printf("DOWN\n");
+	//		break;
+	//	case LEFT:
+	//		printf("LEFT\n");
+	//		break;
+	//	case RIGHT:
+	//		printf("RIGHT\n");
+	//		break;
+	//	default:
+	//			printf("Exception\n");
+	//			break;
+	//	}
+	//}
+
+	int x = 5;
+	int y = 5;
+	move(x, y);
+	printf("★");
+
 	while (1)
 	{
-		int input = getch();
+		int input = _getch();
 		switch (input)
 		{
 		case UP:
-			printf("UP\n");
+			
+			y -= 1;
 			break;
 		case DOWN:
-			printf("DOWN\n");
+			
+			y += 1;
 			break;
 		case LEFT:
-			printf("LEFT\n");
+			
+			x -= 2;
 			break;
 		case RIGHT:
-			printf("RIGHT\n");
+		
+			x += 2;
 			break;
 		}
+		if (x < 0)
+		{
+			x+=2;
+		}
+		if (y < 0)
+		{
+			y++;
+		}
+		system("cls");
+		move(x, y);
+		printf("★");
 	}
 	return 0;
 }
