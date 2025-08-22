@@ -5,12 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F00DE2F-170A-4D10-A023-8053B74D57B1}|Program.vcxproj|solutionrelative:Program.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2724DFA2-9284-4F64-BD30-2C66F3D23B42}|..\\Class4th (Positioning System)\\Class4th (Positioning System).vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class4th (Positioning System)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56FE31AF-243F-4377-B2CF-341D7DFB939E}|..\\Class3rd (Input System)\\Class3rd (Input System).vcxproj|C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,43 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class3rd (Input System)\\Source.c",
-              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class3rd (Input System)\\Source.c",
-              "RelativeToolTip": "..\\Class3rd (Input System)\\Source.c",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwDYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-21T09:28:31.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class4th (Positioning System)\\Source.c",
-              "RelativeDocumentMoniker": "..\\Class4th (Positioning System)\\Source.c",
-              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Class4th (Positioning System)\\Source.c",
-              "RelativeToolTip": "..\\Class4th (Positioning System)\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-08-21T09:28:19.73Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.c",
               "DocumentMoniker": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
               "RelativeDocumentMoniker": "Program.c",
-              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c",
-              "RelativeToolTip": "Program.c",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAG8AAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\hkdav\\OneDrive\\Desktop\\P._Fragile\\Program\\Program.c*",
+              "RelativeToolTip": "Program.c*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAE8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-08-12T09:16:30.73Z",
               "EditorCaption": ""
